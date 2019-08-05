@@ -14,7 +14,8 @@ const forecaste = (lat,long,callback) => {
              callback(undefined, {
                  temprature: body.currently.temperature,
                  Rain: body.currently.precipProbability,
-                 summary:body.daily.data[0].summary
+                 summary:body.daily.data[0].summary,
+                 icon: body.currently.icon
              });
          }
      })

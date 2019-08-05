@@ -20,7 +20,7 @@
                     messageOne.textContent = data.error
                 } else {
                     console.log(data.forecast)
-                    messageTwo.textContent = 'temperature is :'+' '+data.forecast.temprature +', '+ 'climate is:' +data.forecast.summary
+                    messageTwo.textContent = 'temperature is :'+' '+data.forecast.temprature +', '+ 'climate is:'+data.forecast.icon + " " +data.forecast.summary
                     messageOne.textContent = data.location
                   
                 }
