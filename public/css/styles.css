@@ -1,9 +1,11 @@
 body{
-    columns: #333333;
+    color: #333333;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    background: #212121; ;
+    
 
 
     display: flex;
@@ -16,16 +18,16 @@ body{
 }
 footer {
     
-    color: #7E685A;
-    border-top: 1px solid #7E685A;
+    color: #b2dfdb;
+    border-top: 1px solid #00695c;
     margin-top: 16px; 
     padding: 16px 0;
 }
 header {
     margin-top: 16px;
     margin-bottom: 48px; 
-    background: #7E685A;
-    color: rgb(236, 215, 201);
+    background: #00695c;
+    color: #b2dfdb;
 }
 
 h1{
@@ -36,28 +38,29 @@ h1{
 header a{
    margin-right: 16px;
    text-decoration: none;
-   color:rgb(236, 215, 201);
+   color:#b2dfdb;
 }
 .potrait {
     width:250px;
 }
 input{
       
-    border: 1px solid #7E685A;
+    border: 1px solid #b2dfdb;
     padding: 8px;
+    background: #b2dfdb;
 }
 button{
          cursor: pointer;
-         border: 1px solid #7E685A;
-         background: #7E685A;
-         color:rgb(236, 215, 201);
+         border: 1px solid #00695c;
+         background: #00695c;
+         color:#b2dfdb;
          padding: 8px;
 }
 button:hover {
-    background: #664444;
-    color: black;
+    background: #b2dfdb;
+    color: #00695c;
 }
 p{
-    color: #7E685A;
+    color: #b2dfdb;
     font-family: arial;
 }
