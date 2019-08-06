@@ -1,7 +1,7 @@
 
 
 
-    const weatherForm = document.querySelector('form');
+   const weatherForm = document.querySelector('form');
     const search = document.querySelector('input');
     const messageOne = document.querySelector('#message');
     const messageTwo = document.querySelector('#message-2');
@@ -20,9 +20,10 @@
                     messageOne.textContent = data.error
                 } else {
                     console.log(data.forecast)
-                    messageTwo.textContent = 'temperature is :'+' '+data.forecast.temprature +', '+ 'climate is:'+data.forecast.icon + " " +data.forecast.summary
+                    messageTwo.textContent = 'temperature is :'+' '+data.forecast.temprature +  'C'  +', '+ 'climate is:' +data.forecast.summary  + 'with a high of:' +data.forecast.temperatureHigh  +  'C'  + ',' + 'with a low of:' +data.forecast.temperatureLow   +  'C' 
+                   
                     messageOne.textContent = data.location
-                  
+                 
                 }
             })
         })

@@ -2,7 +2,7 @@ const request = require('request');
 
 
 const forecaste = (lat,long,callback) => {
-    const url = 'https://api.darksky.net/forecast/75ea8f2fe0f07b50be2d3ff44edc02ca/'+ lat +','+ long
+    const url = 'https://api.darksky.net/forecast/75ea8f2fe0f07b50be2d3ff44edc02ca/' +lat+ ',' +long + "?units=si";
      request({url, json: true},(error,{body}) => {
          if(error) {
              callback('unable to connect to services',undefined);
@@ -15,7 +15,11 @@ const forecaste = (lat,long,callback) => {
                  temprature: body.currently.temperature,
                  Rain: body.currently.precipProbability,
                  summary:body.daily.data[0].summary,
-                 icon: body.currently.icon
+                 temperatureHigh: body.daily.data[0].temperatureHigh,
+                 temperatureLow:body.daily.data[0].temperatureLow,
+                // sunriseTime:body.daily.data[0].sunriseTime,
+                // sunsetTime:body.daily.data[0].sunsetTime
+            
              });
          }
      })

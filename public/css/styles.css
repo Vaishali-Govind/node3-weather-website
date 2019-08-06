@@ -16,16 +16,16 @@ body{
 }
 footer {
     
-    color: #888888;
-    border-top: 1px solid #888888;
+    color: #7E685A;
+    border-top: 1px solid #7E685A;
     margin-top: 16px; 
     padding: 16px 0;
 }
 header {
     margin-top: 16px;
     margin-bottom: 48px; 
-    background: #888888;
-    color: whitesmoke;
+    background: #7E685A;
+    color: rgb(236, 215, 201);
 }
 
 h1{
@@ -36,28 +36,28 @@ h1{
 header a{
    margin-right: 16px;
    text-decoration: none;
-   color:white;
+   color:rgb(236, 215, 201);
 }
 .potrait {
     width:250px;
 }
 input{
       
-    border: 1px solid #cccccc;
+    border: 1px solid #7E685A;
     padding: 8px;
 }
 button{
          cursor: pointer;
-         border: 1px solid #888888;
-         background: #888888;
-         color: white;
+         border: 1px solid #7E685A;
+         background: #7E685A;
+         color:rgb(236, 215, 201);
          padding: 8px;
 }
 button:hover {
-    background: #cccccc;
+    background: #664444;
     color: black;
 }
 p{
-    color: #888888;
+    color: #7E685A;
     font-family: arial;
 }
