@@ -4,7 +4,7 @@ body{
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-    background: #212121;
+   
     
 
 
@@ -18,7 +18,7 @@ body{
 }
 footer {
     
-    color: #b2dfdb;
+    color: #00695c;
     border-top: 1px solid #00695c;
     margin-top: 16px; 
     padding: 16px 0;
@@ -38,14 +38,14 @@ h1{
 header a{
    margin-right: 16px;
    text-decoration: none;
-   color:#b2dfdb;
+   color: #b2dfdb;
 }
 .potrait {
     width:250px;
 }
 input{
       
-    border: 1px solid #b2dfdb;
+    border: 1px solid #00695c;
     padding: 8px;
     background: #b2dfdb;
 }
@@ -61,7 +61,7 @@ button:hover {
     color: #00695c;
 }
 p{
-    color: #b2dfdb;
+    color: #00695c;
     font-family: arial;
 }
 .head{
